@@ -10,10 +10,7 @@
 			//console.log(response);
 			return response.json();
 
-		}).then(function(people){
-			//console.log(people.results[0].cell);
-			
-
+		}).then(function(people){	
 			var peopleList = document.querySelector("#peopleList");
 
 			for (var i=0; i< people.results.length; i++){
