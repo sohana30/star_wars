@@ -3,7 +3,7 @@
 	var filmUrl ;
 
 	function StarWarsFetch() {
-		var url = "https://swapi.co/api/people/?format=json";
+		var url = "https://swapi.dev/api/people/?format=json";
 
 		fetch(url)
 		.then(function(response){
